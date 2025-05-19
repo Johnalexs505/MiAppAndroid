@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="24dp"
+android:gravity="center">
+
+<TextView
+    android:id="@+id/tvMensajeRecibido"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Mensaje recibido aquí"
+    android:textSize="18sp"
+    android:padding="8dp"
+    android:layout_marginBottom="16dp" />
+
+<EditText
+    android:id="@+id/etRespuesta"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Escribe tu respuesta aquí" />
+
+<Button
+    android:id="@+id/btnEnviarDeVuelta"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enviar Mensaje de Vuelta"
+    android:layout_marginTop="16dp" />
+</LinearLayout>

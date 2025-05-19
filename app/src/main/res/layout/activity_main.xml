@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="24dp"
+android:gravity="center">
+
+<Button
+    android:id="@+id/btnSegunda"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Ir a Segunda Pantalla" />
+
+<Button
+    android:id="@+id/btnNavegador"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Abrir Navegador"
+    android:layout_marginTop="16dp" />
+
+<Button
+    android:id="@+id/btnTercera"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Ir a Tercera Pantalla"
+    android:layout_marginTop="16dp" />
+</LinearLayout>
+
